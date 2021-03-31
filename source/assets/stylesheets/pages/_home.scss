@@ -1,4 +1,18 @@
 body {
-  background-color: $white;
+  background-color: $lemon;
 }
 // Specific CSS for your home-page
+
+html {
+  font-size: 16px;
+  // Magic:
+  @media (max-width: 1000px) {
+    font-size: calc(12px + .4vw);
+  }
+}
+.title {
+  font-size: 1.5rem;
+}
+.body {
+  font-size: 1rem;
+}
