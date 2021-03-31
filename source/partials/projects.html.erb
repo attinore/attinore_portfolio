@@ -1,15 +1,12 @@
-<h2>List of projects</h2>
-<div class="cards" style="padding-top: 4px;">
+<section class="projects">
+  <h2>List of projects</h2>
+  <div class="project-cards">
     <% data.projects.each do |project| %>
-    <div>
-        <h5><%= project.name %></h5>
+      <div class="project-content">
+        <h4><%= project.name %></h4>
         <p><%= project.description %></p>
-        <% project.tags.each do |tag| %>
-        <% end %>
-    </div>
-        <% link_to project.page, class: 'external-link', target: '_blank' do %>
-        <i class="fas fa-external-link-alt"></i>
-        <% end %>
-        <% end %>
-    </div>
-</div>
+        <p class="project-details"><%= project.details %></p>
+      </div>
+    <% end %>
+  </div>
+</section>
