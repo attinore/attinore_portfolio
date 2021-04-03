@@ -1,0 +1,12 @@
+.btn-outline-m {
+  text-align: center;
+  color: $accent-green;
+  border: 1px solid $accent-green;
+  border-radius: 8px;
+  padding: 16px 24px;
+  width: 180px;
+  p {
+    margin: 0;
+  }
+  justify-self: center;
+}
