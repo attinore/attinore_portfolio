@@ -9,11 +9,14 @@ section {
     p {
       font-weight: 300;
       font-size: 1.2rem;
+      margin: 0;
     }
 
     h1 {
       font-size: 3.5rem;
       line-height: 4rem;
+      padding: 0 4rem;
+
     }
   }
 
@@ -22,22 +25,37 @@ section {
     h5 {
     font-family: $body-font;
     color: $text-grey;
+    line-height: 2rem;
+    margin: 0;
     }
   }
 }
 
 .about {
+  text-align: center;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr;
+
+  h2 {
+    font-size: 2.5rem;
+    color: $accent-mint;
+    font-weight: 500;
+  }
+
   img {
     grid-template-columns: 1fr;
   }
 
   h1 {
   }
+
   p {
     font-weight: 400;
+  }
+
+  .about-text {
+    text-align: center;
   }
 }
 
