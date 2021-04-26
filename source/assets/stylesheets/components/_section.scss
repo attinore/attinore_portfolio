@@ -4,12 +4,25 @@ section {
 
 .main-banner-content {
   text-align: center;
-  h1 {
-    color: $accent-green;
+  .headline {
+    padding: 0 0 3rem 0;
+    p {
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      line-height: 4rem;
+    }
   }
-  h5 {
-    padding: 4rem 0rem;
-    color: $accent-grey;
+
+  .tag-line {
+    padding: 3rem 0rem;
+    h5 {
+    font-family: $body-font;
+    color: $text-grey;
+    }
   }
 }
 
@@ -17,14 +30,11 @@ section {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr;
-  color: $accent-grey;
   img {
-    background-color: $mint;
     grid-template-columns: 1fr;
   }
 
   h1 {
-    color: $accent-green;
   }
   p {
     font-weight: 400;
@@ -32,7 +42,6 @@ section {
 }
 
 .projects {
-  color: $lemon;
   text-align: center;
 
   .project-cards {
@@ -41,12 +50,10 @@ section {
     }
 
     .project-content {
-      background-color: $lemon;
       padding: 16px;
     }
 
     .project-details {
-      background-color: $dark-teal;
     }
   }
 }
