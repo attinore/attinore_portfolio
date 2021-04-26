@@ -1,5 +1,4 @@
 .navbar {
-  background-color: $lemon;
   justify-content: center;
   ul{
     list-style: none;
@@ -8,7 +7,6 @@
     margin-top: 16px;
     li {
     text-decoration: none;
-
     }
     padding-inline-start: 0px;
   }
@@ -17,8 +15,9 @@
 .nav-link {
   justify-content: space-between;
   text-decoration: none;
-  color: $accent-grey !important;
+  color: $accent-mint !important;
 }
+
 .navbar-lewagon {
   justify-content: space-between;
   background: white;

@@ -1,10 +1,20 @@
 .btn-outline-m {
   text-align: center;
-  color: $accent-green;
-  border: 1px solid $accent-green;
+  color: $accent-mint;
+  border: 1px solid $accent-mint;
   border-radius: 8px;
   padding: 16px 24px;
   width: 180px;
+  p {
+    margin: 0;
+  }
+  justify-self: center;
+}
+
+.btn-arrow {
+  text-align: center;
+  color: $accent-mint;
+  padding: 16px 24px;
   p {
     margin: 0;
   }
