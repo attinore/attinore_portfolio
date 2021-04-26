@@ -9,11 +9,14 @@ section {
     p {
       font-weight: 300;
       font-size: 1.2rem;
+      margin: 0;
     }
 
     h1 {
       font-size: 3.5rem;
       line-height: 4rem;
+      padding: 0 4rem;
+
     }
   }
 
@@ -22,6 +25,8 @@ section {
     h5 {
     font-family: $body-font;
     color: $text-grey;
+    line-height: 2rem;
+    margin: 0;
     }
   }
 }
