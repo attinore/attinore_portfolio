@@ -32,17 +32,30 @@ section {
 }
 
 .about {
+  text-align: center;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr;
+
+  h2 {
+    font-size: 2.5rem;
+    color: $accent-mint;
+    font-weight: 500;
+  }
+
   img {
     grid-template-columns: 1fr;
   }
 
   h1 {
   }
+
   p {
     font-weight: 400;
+  }
+
+  .about-text {
+    text-align: center;
   }
 }
 
